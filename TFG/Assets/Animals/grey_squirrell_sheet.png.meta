@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: d5ca1c34fe3795a418e881ae5d8f9c7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -811309020292167055
+    second: grey_squirrell_sheet_0
+  - first:
+      213: -2397546230960384121
+    second: grey_squirrell_sheet_1
+  - first:
+      213: 4023082917460097533
+    second: grey_squirrell_sheet_2
+  - first:
+      213: -5918055619845773000
+    second: grey_squirrell_sheet_3
+  - first:
+      213: 7902879463013007804
+    second: grey_squirrell_sheet_4
+  - first:
+      213: -3598870268459466412
+    second: grey_squirrell_sheet_5
+  - first:
+      213: 4284151075465960771
+    second: grey_squirrell_sheet_6
+  - first:
+      213: 9005396075345178951
+    second: grey_squirrell_sheet_7
+  - first:
+      213: 7756557499539691886
+    second: grey_squirrell_sheet_8
+  - first:
+      213: 6438118780425391262
+    second: grey_squirrell_sheet_9
+  - first:
+      213: 2709874176146480509
+    second: grey_squirrell_sheet_10
+  - first:
+      213: -6654436172753997709
+    second: grey_squirrell_sheet_11
+  - first:
+      213: 1497564628509083332
+    second: grey_squirrell_sheet_12
+  - first:
+      213: -6251471602638407185
+    second: grey_squirrell_sheet_13
+  - first:
+      213: -6327381633842454252
+    second: grey_squirrell_sheet_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a4a6a9eb6adb4f0800000000000000
+      internalID: -811309020292167055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 49
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787970bd7643abed0800000000000000
+      internalID: -2397546230960384121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 49
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9b625299cd4d730800000000000000
+      internalID: 4023082917460097533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 49
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839a61ad4c7dedda0800000000000000
+      internalID: -5918055619845773000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 49
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1ce97100bacad60800000000000000
+      internalID: 7902879463013007804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45142c7fe8e3e0ec0800000000000000
+      internalID: -3598870268459466412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 34
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d914964bc547b30800000000000000
+      internalID: 4284151075465960771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 34
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74175a4940899fc70800000000000000
+      internalID: 9005396075345178951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 34
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6994f723f3d4ab60800000000000000
+      internalID: 7756557499539691886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 34
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cc6019beac85950800000000000000
+      internalID: 6438118780425391262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d1737a4386b9520800000000000000
+      internalID: 2709874176146480509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_squirrell_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 19
+        width: 22
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370fc7ebe81b6a3a0800000000000000
+      internalID: -6654436172753997709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
