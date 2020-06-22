@@ -7,6 +7,10 @@ public class Player : MonoBehaviour
 
     Vector2 new_position;
     public float movement_speed = 0.0f;
+    public GameObject right_margin;
+    public GameObject left_margin;
+    public GameObject bot_margin;
+    public GameObject top_margin;
 
     // Start is called before the first frame update
     void Start()
@@ -25,9 +29,9 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            
             transform.GetComponent<Animator>().SetBool("Front", true);
             //transform.GetComponent<Animator>().Play("Front_walk");
+            if(transform.position.y < top_margin.transform.position.y)
             new_position.y += movement_speed;
         }
 
@@ -35,21 +39,24 @@ public class Player : MonoBehaviour
         {
             transform.GetComponent<Animator>().SetBool("Back", true);
             //transform.GetComponent<Animator>().Play("back_walk");
-            new_position.y -= movement_speed;
+            if (transform.position.y > bot_margin.transform.position.y)
+                new_position.y -= movement_speed;
         }
 
         if (Input.GetKey(KeyCode.A))
         {
             transform.GetComponent<Animator>().SetBool("Left", true);
             //transform.GetComponent<Animator>().Play("Left_walk");
-            new_position.x -= movement_speed;
+            if (transform.position.x > left_margin.transform.position.x)
+                new_position.x -= movement_speed;
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             transform.GetComponent<Animator>().SetBool("Right", true);
             //transform.GetComponent<Animator>().Play("Right_walk");
-            new_position.x += movement_speed;
+            if (transform.position.x < right_margin.transform.position.x)
+                new_position.x += movement_speed;
         }
 
 
