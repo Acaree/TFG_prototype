@@ -25,25 +25,30 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            new_position.y += movement_speed;
+            
             transform.GetComponent<Animator>().SetBool("Front", true);
+            //transform.GetComponent<Animator>().Play("Front_walk");
+            new_position.y += movement_speed;
         }
 
         if (Input.GetKey(KeyCode.S))
         {
             transform.GetComponent<Animator>().SetBool("Back", true);
+            //transform.GetComponent<Animator>().Play("back_walk");
             new_position.y -= movement_speed;
         }
 
         if (Input.GetKey(KeyCode.A))
         {
             transform.GetComponent<Animator>().SetBool("Left", true);
+            //transform.GetComponent<Animator>().Play("Left_walk");
             new_position.x -= movement_speed;
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             transform.GetComponent<Animator>().SetBool("Right", true);
+            //transform.GetComponent<Animator>().Play("Right_walk");
             new_position.x += movement_speed;
         }
 
