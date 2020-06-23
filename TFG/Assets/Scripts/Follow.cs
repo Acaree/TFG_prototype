@@ -18,25 +18,36 @@ public class Follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        transform.GetComponent<Animator>().SetBool("front", false);
+        transform.GetComponent<Animator>().SetBool("back", false);
+        transform.GetComponent<Animator>().SetBool("left", false);
+        transform.GetComponent<Animator>().SetBool("right", false);
+
         if (following)
         {
             if (transform.position.x > player.transform.position.x)
             {
+                //transform.GetComponent<Animator>().SetBool("left", true);
                 new_position.x -= speed;
             }
 
             if (transform.position.x < player.transform.position.x)
             {
+                //transform.GetComponent<Animator>().SetBool("right", true);
                 new_position.x += speed;
             }
 
             if (transform.position.y > player.transform.position.y)
             {
+                transform.GetComponent<Animator>().SetBool("back", true);
                 new_position.y -= speed;
             }
 
             if (transform.position.y < player.transform.position.y)
             {
+
+                transform.GetComponent<Animator>().SetBool("front", true);
                 new_position.y += speed;
             }
 
