@@ -23,6 +23,9 @@ public class Follow_BUNNY : MonoBehaviour
     void Update()
     {
 
+        transform.GetComponent<Animator>().SetBool("Front", false);
+        transform.GetComponent<Animator>().SetBool("Back", false);
+
         if (!secondary_obj)
         {
 
@@ -44,12 +47,14 @@ public class Follow_BUNNY : MonoBehaviour
 
                 if (transform.position.y > player.transform.position.y)
                 {
+                    transform.GetComponent<Animator>().SetBool("Back", true);
                     new_position.y -= speed;
                 }
 
                 if (transform.position.y < player.transform.position.y)
                 {
                     new_position.y += speed;
+                    transform.GetComponent<Animator>().SetBool("Front", true);
                 }
 
             }
@@ -69,12 +74,15 @@ public class Follow_BUNNY : MonoBehaviour
 
             if (transform.position.y > secondary_path.transform.position.y)
             {
+                transform.GetComponent<Animator>().SetBool("Back", true);
                 new_position.y -= speed;
+
             }
 
             if (transform.position.y < secondary_path.transform.position.y)
             {
                 new_position.y += speed;
+                transform.GetComponent<Animator>().SetBool("Front", true);
             }
 
         }
