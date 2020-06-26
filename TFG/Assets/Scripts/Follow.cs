@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Follow : MonoBehaviour
@@ -61,7 +62,7 @@ public class Follow : MonoBehaviour
 
         if (collision.gameObject.tag == "Player")
         {
-            following = false;
+            SceneManager.LoadScene("game_over");
         }
     }
 }
