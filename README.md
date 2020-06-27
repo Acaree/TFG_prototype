@@ -8,6 +8,7 @@
 3- Juega ambas versiones y rellena [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSekmJiJ1G62MQKJbdH-GhKScOiPVdo__jwby7teCuIjxMNrUQ/viewform?usp=sf_link)
 
 ##Controles
+
 W,A,S,D -> Moverse
 
 Click izquierdo -> Interactuar con los dialogos
