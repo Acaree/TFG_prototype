@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/version_enviromental.unity
+    path: Assets/Scenes/version_no_enviromental.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/main_menu.unity
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/game_over.unity
     guid: 93fffcdc794d7cb4394ea2b5f110491f
+  - enabled: 1
+    path: Assets/Scenes/version_enviromental 1.unity
+    guid: 9105cc2142938e640af8f38563ce785a
   m_configObjects: {}

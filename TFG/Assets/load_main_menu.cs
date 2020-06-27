@@ -13,7 +13,7 @@ public class load_main_menu : MonoBehaviour
 
     public void LoadScene1()
     {
-        SceneManager.LoadScene("main_menu");
+        SceneManager.LoadScene("version_no_enviromental");
     }
 
     public void LoadScene2()
