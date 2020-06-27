@@ -11,7 +11,7 @@
 
 W,A,S,D -> Moverse
 
-Click izquierdo -> Interactuar con los dialogos
+Click izquierdo -> Interactuar con los diálogos
 
 Muchas gracias por ayudarme!
 
