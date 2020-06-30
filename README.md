@@ -15,5 +15,11 @@ Click izquierdo -> Interactuar con los diálogos
 
 Muchas gracias por ayudarme!
 
+## Arte
 
+https://finalbossblues.itch.io/fantasy-rpg-tileset-pack
+
+https://finalbossblues.itch.io/animals-sprite-pack
+
+https://www.dafont.com/es/pixel-art.font
  
